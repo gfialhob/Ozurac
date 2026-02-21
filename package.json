@@ -3,7 +3,7 @@
   "displayName": "Ozurac",
   "description": "Tema escuro de VSCode com detalhes verde-escuro",
   "publisher": "gb-bittencourt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.103.0"
   },
