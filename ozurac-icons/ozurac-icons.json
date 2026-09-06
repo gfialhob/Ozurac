@@ -2,8 +2,6 @@
   "iconDefinitions": {
     "folder": { "iconPath": "./svg/folder.svg" },
     "folderopen": { "iconPath": "./svg/folder-open.svg" },
-    "rootfolder": { "iconPath": "./svg/folder-root.svg" },
-    "rootfolderopen": { "iconPath": "./svg/folder-root-open.svg" },
     "file": { "iconPath": "./svg/file.svg" },
     "javascript": { "iconPath": "./svg/javascript.svg" },
     "typescript": { "iconPath": "./svg/typescript.svg" },
