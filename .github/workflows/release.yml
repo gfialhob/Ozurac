@@ -1,0 +1,38 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Empacotar extensão (.vsix)
+        run: |
+          npm install -g @vscode/vsce
+          vsce package --no-dependencies -o ozurac.vsix
+
+      - name: Criar GitHub Release com o .vsix anexado
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ozurac.vsix
+          generate_release_notes: true
+
+      # Para publicar direto na Marketplace, crie um Personal Access Token
+      # (https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+      # e adicione como secret VSCE_PAT no repositório. Depois descomente:
+      #
+      # - name: Publicar na Marketplace
+      #   run: npx @vscode/vsce publish --no-dependencies -p ${{ secrets.VSCE_PAT }}

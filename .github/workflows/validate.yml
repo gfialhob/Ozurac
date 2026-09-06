@@ -1,0 +1,52 @@
+name: Validar tema
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validar JSON (package.json, temas e ícones)
+        run: |
+          for f in package.json themes/Ozurac.json ozurac-icons/ozurac-icons.json; do
+            echo "Verificando $f"
+            python3 -m json.tool "$f" > /dev/null
+          done
+
+      - name: Verificar se a versão do package.json está no CHANGELOG
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          if ! grep -q "\[$VERSION\]" CHANGELOG.md; then
+            echo "::error::Versão $VERSION do package.json não encontrada no CHANGELOG.md"
+            exit 1
+          fi
+          echo "Versão $VERSION confirmada no CHANGELOG.md"
+
+      - name: Verificar se todos os ícones referenciados existem
+        run: |
+          node -e "
+            const fs = require('fs');
+            const theme = JSON.parse(fs.readFileSync('ozurac-icons/ozurac-icons.json', 'utf8'));
+            let missing = [];
+            for (const [id, def] of Object.entries(theme.iconDefinitions)) {
+              const path = require('path').join('ozurac-icons', def.iconPath);
+              if (!fs.existsSync(path)) missing.push(path);
+            }
+            if (missing.length) {
+              console.error('Ícones faltando:', missing);
+              process.exit(1);
+            }
+            console.log('Todos os ícones referenciados existem.');
+          "
+
+      - name: Empacotar extensão (dry run)
+        run: |
+          npm install -g @vscode/vsce
+          vsce package --no-dependencies -o /tmp/ozurac-dry-run.vsix

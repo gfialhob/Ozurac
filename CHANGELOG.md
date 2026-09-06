@@ -1,10 +1,24 @@
 # 📋 Changelog
 
-### [1.0.3]
+## [1.1.0]
+✨ Adicionado
+- File Icon Theme "Ozurac Icons" (`ozurac-icons/`), com +30 ícones cobrindo pastas, arquivo genérico e dezenas de extensões/nomes de arquivo (JS/TS, JSON, HTML, CSS, Markdown, Python, PowerShell, YAML, XML, SVG, imagens, PDF, Word, licença, lock-files, chaves/certificados, configs, Node.js, Java, Tailwind CSS, README, CHANGELOG, entre outros).
+- Cores ANSI do terminal alinhadas à paleta do tema (antes usavam o padrão default do VS Code).
+
+## [1.0.4]
+🎨 Melhorias
+- Corrigida cor órfã (marrom) do `listFilterWidget.background`, que destoava da paleta preto+verde.
+- Adicionadas cores de bracket pair colorization alinhadas ao tema (antes usava azul/laranja/roxo padrão do VS Code).
+- Status bar em modo debug agora tem cor distinta, restaurando o aviso visual de "depuração ativa".
+- `terminal.background` definido explicitamente.
+### 📦 Alterado
+- Versão mínima do VS Code reduzida de `^1.103.0` para `^1.75.0`, ampliando a compatibilidade.
+
+## [1.0.3]
 🎨 Melhorias
 - Ajustado e refinado o uso da cor verde para melhor destaque visual e consistência na interface.
 
-### [1.0.2]
+## [1.0.2]
 🎨 Alterações
 - Adaptação da paleta de cores.
 - Melhoria no contraste e destaque visual dos elementos principais.

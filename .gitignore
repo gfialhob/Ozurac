@@ -1,0 +1,16 @@
+# Dependências (caso adicione devDependencies no futuro)
+node_modules/
+
+# Artefato de build - gerado com `vsce package`, não deve ser versionado
+*.vsix
+
+# Testes do VS Code
+.vscode-test/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
