@@ -1,5 +1,10 @@
 # 📋 Changelog
 
+## [1.1.1]
+🎨 Alterado
+- Novo ícone da extensão (prompt de terminal `$_` em verde), substituindo o anterior.
+
+
 ## [1.1.0]
 ✨ Adicionado
 - File Icon Theme "Ozurac Icons" (`ozurac-icons/`), com +30 ícones cobrindo pastas, arquivo genérico e dezenas de extensões/nomes de arquivo (JS/TS, JSON, HTML, CSS, Markdown, Python, PowerShell, YAML, XML, SVG, imagens, PDF, Word, licença, lock-files, chaves/certificados, configs, Node.js, Java, Tailwind CSS, README, CHANGELOG, entre outros).

@@ -3,7 +3,7 @@
   "displayName": "Ozurac",
   "description": "Tema escuro de VSCode com detalhes verde-escuro, para desenvolvedores que preferem foco e contraste.",
   "publisher": "gb-bittencourt",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "engines": {
     "vscode": "^1.75.0"
   },
