@@ -1,9 +1,14 @@
 # 📋 Changelog
 
+## [1.2.0]
+✨ Adicionado
+- Novos ícones de extensão: Angular, Áudio, Console (scripts de shell/terminal), DLL, E-mail, Illustrator, npm, Photoshop, React, URL, Vídeo e ZIP (+ formatos de compactação relacionados).
+### 🎨 Alterado
+- Ícones redesenhados: `certificate`, `changelog`, `excel`, `file`, `image`, `key`, `lock`, `markdown`, `pdf`, `powerpoint`, `powershell`, `readme`, `settings`, `txt`, `word`, `xml`, `yaml`.
+
 ## [1.1.1]
 🎨 Alterado
 - Novo ícone da extensão (prompt de terminal `$_` em verde), substituindo o anterior.
-
 
 ## [1.1.0]
 ✨ Adicionado
