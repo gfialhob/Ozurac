@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 96">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M13 4H46.75L73 30.4V83C73 89 70 92 63 92H13C6 92 3 89 3 83V13C3 7 6 4 13 4Z" fill="#3465A4"/>
-  <path d="M46.7501 24V4L73.0001 30.4H54C49 30.4 46.7501 28 46.7501 24Z" fill="white" fill-opacity="0.3"/>
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M14 37C14 35.5 14.75 35 17 35H59C61.25 35 62 35.5 62 37C62 38.5 61.25 39 59 39H17C14.75 39 14 38.5 14 37Z" fill="white" fill-opacity="0.4"/>
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M14 49C14 47.5 14.75 47 17 47H59C61.25 47 62 47.5 62 49C62 50.5 61.25 51 59 51H17C14.75 51 14 50.5 14 49Z" fill="white" fill-opacity="0.4"/>
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M14 61C14 59.5 14.75 59 17 59H59C61.25 59 62 59.5 62 61C62 62.5 61.25 63 59 63H17C14.75 63 14 62.5 14 61Z" fill="white" fill-opacity="0.4"/>
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M14 73C14 71.5 14.75 71 17 71H59C61.25 71 62 71.5 62 73C62 74.5 61.25 75 59 75H17C14.75 75 14 74.5 14 73Z" fill="white" fill-opacity="0.4"/>
+  <path  fill="#3465A4" fill-rule="evenodd" clip-rule="evenodd" d="M13 4H46.75L73 30.4V83C73 89 70 92 63 92H13C6 92 3 89 3 83V13C3 7 6 4 13 4Z"/>
+  <path fill="#FFFFFF" fill-opacity="0.3" d="M46.7501 24V4L73.0001 30.4H54C49 30.4 46.7501 28 46.7501 24Z"/>
+  <path fill="#FFFFFF" fill-opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M14 37C14 35.5 14.75 35 17 35H59C61.25 35 62 35.5 62 37C62 38.5 61.25 39 59 39H17C14.75 39 14 38.5 14 37Z"/>
+  <path fill="#FFFFFF" fill-opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M14 49C14 47.5 14.75 47 17 47H59C61.25 47 62 47.5 62 49C62 50.5 61.25 51 59 51H17C14.75 51 14 50.5 14 49Z"/>
+  <path fill="#FFFFFF" fill-opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M14 61C14 59.5 14.75 59 17 59H59C61.25 59 62 59.5 62 61C62 62.5 61.25 63 59 63H17C14.75 63 14 62.5 14 61Z"/>
+  <path fill="#FFFFFF" fill-opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M14 73C14 71.5 14.75 71 17 71H59C61.25 71 62 71.5 62 73C62 74.5 61.25 75 59 75H17C14.75 75 14 74.5 14 73Z"/>
 </svg>

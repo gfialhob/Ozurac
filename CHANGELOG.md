@@ -1,5 +1,12 @@
 # 📋 Changelog
 
+## [1.3.0]
+✨ Adicionado
+- Novos ícones: 3D, Android, Chrome, Disc, Django, Docker, Draw.io, EditorConfig, .env, EPUB, EXE, Figma, Font, Go, GraphQL, PHP, Prettier, TOML, Vue, WebAssembly e Template.
+- Ícones de pasta raiz (`folder-root` e `folder-root-open`), restaurando a distinção visual da pasta raiz do workspace.
+### 🎨 Alterado
+- Ícones redesenhados: `dll`, `folder-open`, `folder`, `illustrator`, `json`, `key`, `license`, `nodejs`, `photoshop`, `powerpoint`, `python`, `react`, `svg`, `tailwindcss`, `txt`, `typescript`, `xml`, `yaml`.
+
 ## [1.2.0]
 ✨ Adicionado
 - Novos ícones de extensão: Angular, Áudio, Console (scripts de shell/terminal), DLL, E-mail, Illustrator, npm, Photoshop, React, URL, Vídeo e ZIP (+ formatos de compactação relacionados).
