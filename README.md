@@ -26,7 +26,7 @@ Utiliza tons de verde como cor de destaque, mantendo uma interface limpa e consi
 ## ✨ Características
 
 - 🌑 Tema escuro com acentos em **verde escuro**
-- 💬 Comentários em **cinza escuro**
+- 💬 Comentários em **cinza esverdeado** discreto
 - 👁️ Contraste otimizado para melhor legibilidade
 - 🧩 Interface minimalista e consistente
 - 💻 Cores ANSI do terminal alinhadas à mesma paleta (git, logs e prompts seguem a identidade do tema)
