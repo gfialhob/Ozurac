@@ -3,7 +3,7 @@
   "displayName": "Ozurac",
   "description": "Tema escuro de VSCode com detalhes verde-escuro, para desenvolvedores que preferem foco e contraste.",
   "publisher": "gb-bittencourt",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -42,11 +42,11 @@
   "bugs": {
     "url": "https://github.com/gfialhob/Ozurac/issues"
   },
-  "homepage": "https://github.com/gfialhob/Ozurac/blob/main/README.md",
+  "homepage": "https://github.com/gfialhob/Ozurac/blob/main/readme.md",
   "author": "Gabriel Fialho",
   "license":"MIT",
   "galleryBanner": {
-    "color": "#0a0a0a",
+    "color": "#0A0A0A",
     "theme": "dark"
   }
 }

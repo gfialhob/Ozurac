@@ -1,5 +1,12 @@
 # 📋 Changelog
 
+## [1.3.1]
+### 🎨 Alterado
+- Ícones redesenhados: `certificate`, `license`.
+- Cores de sintaxe revisadas (variáveis, propriedades, keywords, números, classes, constantes, funções, métodos, strings, operadores, funções especiais e comentários), seguindo a identidade verde do tema e reaproveitando os acentos já usados nos pares de colchetes (amarelo, ciano, laranja).
+- Paleta ANSI do terminal atualizada (vermelho, amarelo, azul, ciano, magenta), harmonizando com o restante do tema.
+- Cada regra de `tokenColors` agora tem um campo `name` descritivo, facilitando a manutenção do arquivo.
+
 ## [1.3.0]
 ✨ Adicionado
 - Novos ícones: 3D, Android, Chrome, Disc, Django, Docker, Draw.io, EditorConfig, .env, EPUB, EXE, Figma, Font, Go, GraphQL, PHP, Prettier, TOML, Vue, WebAssembly e Template.
