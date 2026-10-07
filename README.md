@@ -1,16 +1,15 @@
 <div align="center">
 
-<h1>Ozurac</h1>
+[![Ozurac](https://github.com/gfialhob/Ozurac/blob/9f8af688601d1edd8c243472b777d6c54ecb89e3/icon.png)](#readme)
 <p><em>Tema escuro com detalhes em verde</em></p>
 
-<p>
-<a href="https://code.visualstudio.com/updates/v1_75"><img alt="VSCODE" src="https://img.shields.io/badge/v1.75%2B-grey?style=for-the-badge&label=vscode&labelColor=blue"/></a> &nbsp;
-<a href="https://raw.githubusercontent.com/gfialhob/Ozurac/refs/heads/main/LICENSE"><img alt="LICENÇA" src="https://img.shields.io/badge/licen%C3%A7a-gray?style=for-the-badge&label=mit&labelColor=green" /></a> &nbsp;
-<a href="https://github.com/gfialhob/Ozurac"><img alt="REPOSITORIO" src="https://img.shields.io/badge/reposit%C3%B3rio-gray?style=for-the-badge&logo=github&labelColor=010409"/></a>
-</p>
-<p>
-<a href="https://github.com/gfialhob/Ozurac/actions/workflows/validate.yml"><img alt="CI" src="https://github.com/gfialhob/Ozurac/actions/workflows/validate.yml/badge.svg" /></a>
-</p>
+
+[![VSCODE](https://img.shields.io/badge/v1.75%2B-grey?style=for-the-badge&label=vscode&labelColor=blue)](https://code.visualstudio.com/updates/v1_75 "Visual Studio Code") &nbsp;
+[![License](https://img.shields.io/badge/licen%C3%A7a-gray?style=for-the-badge&label=mit&labelColor=green)](https://raw.githubusercontent.com/gfialhob/Ozurac/refs/heads/main/LICENSE "Licença") &nbsp;
+[![Github](https://img.shields.io/badge/reposit%C3%B3rio-gray?style=for-the-badge&logo=github&labelColor=010409)](https://github.com/gfialhob/Ozurac "Repositório")
+
+[![CI](https://github.com/gfialhob/Ozurac/actions/workflows/validate.yml/badge.svg)](https://github.com/gfialhob/Ozurac/actions/workflows/validate.yml)
+
 </div>
 
 ---
