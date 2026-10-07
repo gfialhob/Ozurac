@@ -1,8 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/gfialhob/Ozurac/blob/9f8af688601d1edd8c243472b777d6c54ecb89e3/icon.png">
-  <img src="https://github.com" alt="Ozurac" width="50">
-</a>
+<img src="https://github.com/gfialhob/Ozurac/blob/f8af688601d1edd8c243472b777d6c54ecb89e3/icon.png" alt="Ozurac" width="50">
 
 
 [![VSCODE](https://img.shields.io/badge/v1.75%2B-grey?style=for-the-badge&label=vscode&labelColor=blue)](https://code.visualstudio.com/updates/v1_75 "Visual Studio Code") &nbsp;
