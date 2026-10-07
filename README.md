@@ -30,7 +30,7 @@ Utiliza tons de verde como cor de destaque, mantendo uma interface limpa e consi
 - 👁️ Contraste otimizado para melhor legibilidade
 - 🧩 Interface minimalista e consistente
 - 💻 Cores ANSI do terminal alinhadas à mesma paleta (git, logs e prompts seguem a identidade do tema)
-- 🗂️ File Icon Theme combinando ("Ozurac Icons"), com ícones de pastas e mais de 40 tipos de arquivo (JS/TS, JSON, HTML, CSS, Markdown, Python, PowerShell, YAML, XML, imagens, PDF, Word, licenças, lock-files e mais)
+- 🗂️ File Icon Theme ("Ozurac Icons"), com ícones de pastas e mais de 60 tipos de arquivo (JS/TS, JSON, HTML, CSS, Markdown, Python, PowerShell, YAML, XML, imagens, PDF, Word, licenças, lock e mais)
 
 ---
 
