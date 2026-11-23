@@ -13,6 +13,14 @@
 
 <p align="center"><em>Tema escuro com detalhes em verde</em></p>
 
+<div align="center">
+  <img src="./.github/preview-icons.png" alt="Ozurac Icons Preview" width="800">
+  <br><br>
+  <img src="./.github/preview-editor.png" alt="Ozurac Color Theme Preview" width="800">
+</div>
+
+---
+
 ## 🎨 Sobre
 
 **OZURAC** é um tema escuro para Visual Studio Code, projetado com foco em contraste equilibrado, legibilidade e conforto visual.
@@ -28,7 +36,7 @@ Utiliza tons de verde como cor de destaque, mantendo uma interface limpa e consi
 - 👁️ Contraste otimizado para melhor legibilidade
 - 🧩 Interface minimalista e consistente
 - 💻 Cores ANSI do terminal alinhadas à mesma paleta (git, logs e prompts seguem a identidade do tema)
-- 🗂️ File Icon Theme ("Ozurac Icons"), com ícones de pastas e mais de 60 tipos de arquivo (JS/TS, JSON, HTML, CSS, Markdown, Python, PowerShell, YAML, XML, imagens, PDF, Word, licenças, lock e mais)
+- 🗂️ File Icon Theme ("Ozurac Icons"), com **68 ícones dedicados** cobrindo pastas e **mais de 250 extensões e nomes de arquivo** (JS/TS, React, Angular, Vue, Python, Go, PHP, Docker, JSON, YAML, Markdown, PowerShell, licenças, lock-files e mais)
 
 ---
 
