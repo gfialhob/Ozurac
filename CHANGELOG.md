@@ -1,5 +1,18 @@
 # 📋 Changelog
 
+## [1.4.0]
+### ✨ Adicionado
+- **Pastas Temáticas (`ozurac-icons/`):**
+  - Adicionados **40 pares de pastas temáticas** (estados fechado e aberto), cobrindo **mais de 160 nomes de diretórios**: `src`, `components`, `assets`, `test`, `docs`, `config`, `.github`, `api`, `utils`, `types`, `hooks`, `pages`, `theme`, `i18n`, `database`, `secure`, `scripts`, `infra`, `packages`, `svg`, `.vscode`, `.git`, `controller`, `upload`, `update`, `routes`, `windows`, `linux`, `font`, `app`, `video`, `audio`, `admin`, `dist`, `public`, `services`, `android`, `ios`, `docker` e `logs`.
+- **Novos Ícones de Linguagens e Ferramentas:**
+  - Adicionados **15 novos ícones**: `c`, `controller`, `cpp`, `csharp`, `dart`, `database`, `eslint`, `jest`, `kotlin`, `lua`, `nextjs`, `prisma`, `rust`, `tsconfig` e `vite`.
+
+### 🎨 Alterado
+- **Ícones Base de Pasta (`folder`, `folder-open`, `folder-root`, `folder-root-open`):**
+  - Geometria e preenchimento unificados com o novo padrão visual das pastas temáticas.
+- **Documentação e Marketplace:**
+  - Atualizada a contagem total para **164 ícones dedicados** no `README.md` e adicionada a keyword `Folder Icons` no `package.json`.
+
 ## [1.3.2]
 ### 🎨 Melhorias e Correções
 - **Tema de Cores (`Ozurac.json`):**

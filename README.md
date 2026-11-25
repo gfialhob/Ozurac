@@ -36,7 +36,7 @@ Utiliza tons de verde como cor de destaque, mantendo uma interface limpa e consi
 - 👁️ Contraste otimizado para melhor legibilidade
 - 🧩 Interface minimalista e consistente
 - 💻 Cores ANSI do terminal alinhadas à mesma paleta (git, logs e prompts seguem a identidade do tema)
-- 🗂️ File Icon Theme ("Ozurac Icons"), com **68 ícones dedicados** cobrindo pastas e **mais de 250 extensões e nomes de arquivo** (JS/TS, React, Angular, Vue, Python, Go, PHP, Docker, JSON, YAML, Markdown, PowerShell, licenças, lock-files e mais)
+- 🗂️ File Icon Theme ("Ozurac Icons"), com **164 ícones dedicados** cobrindo **mais de 160 nomes de pastas** (fechadas e abertas) e **mais de 340 extensões e nomes de arquivo** (JS/TS, React, Next.js, Vite, Angular, Vue, Python, Go, PHP, C/C++, C#, Rust, Dart, Kotlin, Lua, Prisma, SQL, Docker, Jest, ESLint, JSON, YAML, Markdown, PowerShell, licenças, lock-files e mais)
 
 ---
 
