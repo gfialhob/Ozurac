@@ -3,7 +3,7 @@
   "displayName": "Ozurac",
   "description": "Tema escuro de VSCode com detalhes verde-escuro, para desenvolvedores que preferem foco e contraste.",
   "publisher": "gb-bittencourt",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -16,6 +16,7 @@
     "Themes",
     "Dark",
     "Dark Theme",
+    "Soft Dark",
     "Color Theme",
     "Minimal",
     "Minimalist",
@@ -34,12 +35,21 @@
     "Coding"
   ],
   "icon": "icon.png",
+  "scripts": {
+    "validate": "node scripts/validate-icons.js",
+    "build:soft": "node scripts/build-soft-theme.js"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Ozurac",
         "uiTheme": "vs-dark",
         "path": "./themes/Ozurac.json"
+      },
+      {
+        "label": "Ozurac Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ozurac-Soft.json"
       }
     ],
     "iconThemes": [

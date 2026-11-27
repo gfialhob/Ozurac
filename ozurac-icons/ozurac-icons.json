@@ -84,6 +84,12 @@
     "folder-docker-open": { "iconPath": "./svg/folder-docker-open.svg" },
     "folder-logs": { "iconPath": "./svg/folder-logs.svg" },
     "folder-logs-open": { "iconPath": "./svg/folder-logs-open.svg" },
+    "folder-cypress": { "iconPath": "./svg/folder-cypress.svg" },
+    "folder-cypress-open": { "iconPath": "./svg/folder-cypress-open.svg" },
+    "folder-storybook": { "iconPath": "./svg/folder-storybook.svg" },
+    "folder-storybook-open": { "iconPath": "./svg/folder-storybook-open.svg" },
+    "folder-ci": { "iconPath": "./svg/folder-ci.svg" },
+    "folder-ci-open": { "iconPath": "./svg/folder-ci-open.svg" },
     "file": { "iconPath": "./svg/file.svg" },
     "template": { "iconPath": "./svg/template.svg" },
     "json": { "iconPath": "./svg/json.svg" },
@@ -163,7 +169,14 @@
     "figma": { "iconPath": "./svg/figma.svg" },
     "robot": { "iconPath": "./svg/robot.svg" },
     "routing": { "iconPath": "./svg/routing.svg" },
-    "controller": { "iconPath": "./svg/controller.svg" }
+    "controller": { "iconPath": "./svg/controller.svg" },
+    "svelte": { "iconPath": "./svg/svelte.svg" },
+    "astro": { "iconPath": "./svg/astro.svg" },
+    "monorepo": { "iconPath": "./svg/monorepo.svg" },
+    "terraform": { "iconPath": "./svg/terraform.svg" },
+    "playwright": { "iconPath": "./svg/playwright.svg" },
+    "cypress": { "iconPath": "./svg/cypress.svg" },
+    "storybook": { "iconPath": "./svg/storybook.svg" }
   },
 
   "fileExtensions": {
@@ -709,7 +722,25 @@
     "controller.mjs": "controller",
     "controller.cjs": "controller",
     "controllers.ts": "controller",
-    "controllers.js": "controller"
+    "controllers.js": "controller",
+    "svelte": "svelte",
+    "astro": "astro",
+    "tf": "terraform",
+    "tfvars": "terraform",
+    "hcl": "terraform",
+    "cy.ts": "cypress",
+    "cy.tsx": "cypress",
+    "cy.js": "cypress",
+    "cy.jsx": "cypress",
+    "stories.ts": "storybook",
+    "stories.tsx": "storybook",
+    "stories.js": "storybook",
+    "stories.jsx": "storybook",
+    "stories.mdx": "storybook",
+    "story.ts": "storybook",
+    "story.tsx": "storybook",
+    "story.js": "storybook",
+    "story.jsx": "storybook"
   },
 
   "fileNames": {
@@ -1055,7 +1086,27 @@
     "controllers.js": "controller",
     "controllers.jsx": "controller",
     "controllers.ts": "controller",
-    "controllers.tsx": "controller"
+    "controllers.tsx": "controller",
+    "svelte.config.js": "svelte",
+    "svelte.config.ts": "svelte",
+    "svelte.config.mjs": "svelte",
+    "astro.config.js": "astro",
+    "astro.config.ts": "astro",
+    "astro.config.mjs": "astro",
+    "astro.config.mts": "astro",
+    "turbo.json": "monorepo",
+    "nx.json": "monorepo",
+    "lerna.json": "monorepo",
+    "pnpm-workspace.yaml": "monorepo",
+    "playwright.config.ts": "playwright",
+    "playwright.config.js": "playwright",
+    "playwright.config.mts": "playwright",
+    "playwright.config.mjs": "playwright",
+    "cypress.config.ts": "cypress",
+    "cypress.config.js": "cypress",
+    "cypress.config.mts": "cypress",
+    "cypress.config.mjs": "cypress",
+    "cypress.json": "cypress"
   },
 
   "languageIds": {
@@ -1119,7 +1170,11 @@
     "django-html": "django",
     "django-txt": "django",
     "graphql": "graphql",
-    "robotframework": "robot"
+    "robotframework": "robot",
+    "svelte": "svelte",
+    "astro": "astro",
+    "terraform": "terraform",
+    "hcl": "terraform"
   },
 
   "folderNames": {
@@ -1283,7 +1338,21 @@
     "log": "folder-logs",
     "tmp": "folder-logs",
     "temp": "folder-logs",
-    ".cache": "folder-logs"
+    ".cache": "folder-logs",
+    "cypress": "folder-cypress",
+    ".cypress": "folder-cypress",
+    "storybook": "folder-storybook",
+    ".storybook": "folder-storybook",
+    "stories": "folder-storybook",
+    "workflows": "folder-ci",
+    ".workflows": "folder-ci",
+    "ci": "folder-ci",
+    ".ci": "folder-ci",
+    "pipelines": "folder-ci",
+    ".pipelines": "folder-ci",
+    ".circleci": "folder-ci",
+    ".buildkite": "folder-ci",
+    "actions": "folder-ci"
   },
 
   "folderNamesExpanded": {
@@ -1447,7 +1516,21 @@
     "log": "folder-logs-open",
     "tmp": "folder-logs-open",
     "temp": "folder-logs-open",
-    ".cache": "folder-logs-open"
+    ".cache": "folder-logs-open",
+    "cypress": "folder-cypress-open",
+    ".cypress": "folder-cypress-open",
+    "storybook": "folder-storybook-open",
+    ".storybook": "folder-storybook-open",
+    "stories": "folder-storybook-open",
+    "workflows": "folder-ci-open",
+    ".workflows": "folder-ci-open",
+    "ci": "folder-ci-open",
+    ".ci": "folder-ci-open",
+    "pipelines": "folder-ci-open",
+    ".pipelines": "folder-ci-open",
+    ".circleci": "folder-ci-open",
+    ".buildkite": "folder-ci-open",
+    "actions": "folder-ci-open"
   },
 
   "rootFolderNames": {},

@@ -31,12 +31,12 @@ Utiliza tons de verde como cor de destaque, mantendo uma interface limpa e consi
 
 ## ✨ Características
 
-- 🌑 Tema escuro com acentos em **verde escuro**
+- 🌑 Duas variantes de tema: **Ozurac** (preto profundo ideal para OLED) e **Ozurac Soft** (grafite-esverdeado suave para reduzir fadiga visual em ambientes claros)
 - 💬 Comentários em **cinza esverdeado** discreto
 - 👁️ Contraste otimizado para melhor legibilidade
 - 🧩 Interface minimalista e consistente
 - 💻 Cores ANSI do terminal alinhadas à mesma paleta (git, logs e prompts seguem a identidade do tema)
-- 🗂️ File Icon Theme ("Ozurac Icons"), com **164 ícones dedicados** cobrindo **mais de 160 nomes de pastas** (fechadas e abertas) e **mais de 340 extensões e nomes de arquivo** (JS/TS, React, Next.js, Vite, Angular, Vue, Python, Go, PHP, C/C++, C#, Rust, Dart, Kotlin, Lua, Prisma, SQL, Docker, Jest, ESLint, JSON, YAML, Markdown, PowerShell, licenças, lock-files e mais)
+- 🗂️ File Icon Theme ("Ozurac Icons"), com **177 ícones dedicados** cobrindo **mais de 170 nomes de pastas** (fechadas e abertas) e **mais de 380 extensões e nomes de arquivo** (JS/TS, React, Next.js, Vite, Svelte, Astro, Angular, Vue, Python, Go, PHP, C/C++, C#, Rust, Dart, Kotlin, Lua, Prisma, SQL, Terraform, Docker, CI/CD, Jest, Playwright, Cypress, Storybook, ESLint, Monorepos, JSON, YAML, Markdown, PowerShell, licenças, lock-files e mais)
 
 ---
 
@@ -55,7 +55,7 @@ Ou instale direto pelo link: [Ozurac na VS Code Marketplace](https://marketplace
 3. Selecione o arquivo baixado
 
 **Ativando o tema de cores:**
-`Ctrl+Shift+P` → `Preferences: Color Theme` → **Ozurac**
+`Ctrl+Shift+P` → `Preferences: Color Theme` → **Ozurac** (ou **Ozurac Soft**)
 
 **Ativando os ícones de arquivo:**
 `Ctrl+Shift+P` → `Preferences: File Icon Theme` → **Ozurac Icons**
@@ -66,7 +66,7 @@ Ou instale direto pelo link: [Ozurac na VS Code Marketplace](https://marketplace
 
 Sugestões, ajustes de contraste ou correções são bem-vindos! Abra uma [issue](https://github.com/gfialhob/Ozurac/issues) ou envie um pull request.
 
-Todo PR passa automaticamente pela validação de JSON e de versionamento antes de poder ser mesclado.
+Todo PR passa automaticamente pela validação de JSON, integridade referencial dos ícones SVG, sincronia da variante *Soft* e versionamento antes de poder ser mesclado.
 
 ---
 

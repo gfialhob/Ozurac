@@ -13,37 +13,45 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validar JSON (package.json, temas e ícones)
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validar sintaxe JSON (package.json, temas e ícones)
         run: |
-          for f in package.json themes/Ozurac.json ozurac-icons/ozurac-icons.json; do
+          for f in package.json themes/Ozurac.json themes/Ozurac-Soft.json ozurac-icons/ozurac-icons.json; do
             echo "Verificando $f"
             python3 -m json.tool "$f" > /dev/null
           done
 
-      - name: Verificar se a versão do package.json está no CHANGELOG
+      - name: Verificar sincronia do Ozurac Soft
         run: |
-          VERSION=$(node -p "require('./package.json').version")
-          if ! grep -q "\[$VERSION\]" CHANGELOG.md; then
-            echo "::error::Versão $VERSION do package.json não encontrada no CHANGELOG.md"
+          npm run build:soft
+          if ! git diff --exit-code themes/Ozurac-Soft.json; then
+            echo "::error::themes/Ozurac-Soft.json está desatualizado em relação ao themes/Ozurac.json. Execute 'npm run build:soft' localmente."
             exit 1
           fi
-          echo "Versão $VERSION confirmada no CHANGELOG.md"
 
-      - name: Verificar se todos os ícones referenciados existem
+      - name: Auditar ícones, mapeamentos e versão no CHANGELOG
+        run: npm run validate
+
+      - name: Verificar arquivos declarados em package.json
         run: |
           node -e "
             const fs = require('fs');
-            const theme = JSON.parse(fs.readFileSync('ozurac-icons/ozurac-icons.json', 'utf8'));
-            let missing = [];
-            for (const [id, def] of Object.entries(theme.iconDefinitions)) {
-              const path = require('path').join('ozurac-icons', def.iconPath);
-              if (!fs.existsSync(path)) missing.push(path);
-            }
+            const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+            const paths = [
+              pkg.icon,
+              ...(pkg.contributes?.themes || []).map(t => t.path),
+              ...(pkg.contributes?.iconThemes || []).map(i => i.path)
+            ].filter(Boolean);
+            const missing = paths.filter(p => !fs.existsSync(p));
             if (missing.length) {
-              console.error('Ícones faltando:', missing);
+              console.error('Arquivos declarados no package.json não encontrados:', missing);
               process.exit(1);
             }
-            console.log('Todos os ícones referenciados existem.');
+            console.log('Todos os arquivos declarados no package.json existem.');
           "
 
       - name: Empacotar extensão (dry run)

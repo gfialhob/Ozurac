@@ -1,5 +1,23 @@
 # 📋 Changelog
 
+## [1.5.0]
+### ✨ Adicionado
+- **Variante de Tema (`Ozurac Soft`):**
+  - Adicionado o tema **Ozurac Soft** (`themes/Ozurac-Soft.json`), substituindo o preto absoluto por superfícies em grafite-esverdeado profundo para reduzir fadiga visual e *halation* em ambientes iluminados, mantendo 100% da paleta de sintaxe do tema principal.
+- **Novas Pastas Temáticas (`ozurac-icons/`):**
+  - Adicionados **3 novos pares de pastas temáticas** (estados fechado e aberto): `ci` (`workflows`, `.workflows`, `.ci`, `pipelines`, `.pipelines`, `.circleci`, `.buildkite`, `actions`), `cypress` (`.cypress`) e `storybook` (`.storybook`, `stories`), totalizando **43 pares** e **mais de 170 nomes de diretórios**.
+- **Novos Ícones de Frameworks e Ferramentas:**
+  - Adicionados **7 novos ícones**: `astro`, `cypress`, `monorepo` (`turbo.json`, `nx.json`, `lerna.json`, `pnpm-workspace.yaml`), `playwright`, `storybook`, `svelte` e `terraform` (`.tf`, `.tfvars`, `.hcl`).
+- **Automação e Auditoria (`scripts/` e CI):**
+  - Adicionados os scripts `scripts/validate-icons.js` (`npm run validate`) e `scripts/build-soft-theme.js` (`npm run build:soft`), integrados ao GitHub Actions para validar integridade referencial de SVGs, detectar arquivos órfãos, conferir simetria entre pastas abertas/fechadas e verificar sincronia de versão.
+
+### 🎨 Alterado
+- **Ícones (`ozurac-icons/`):**
+  - Ícones redesenhados: `dll`, `file`, `font`, `pdf`, `template`, `txt`, `xml`, `yaml` e `zip`.
+
+### 📝 Documentação e Marketplace
+- Atualizada a contagem total para **177 ícones dedicados** no `README.md` e adicionada a keyword `Soft Dark` no `package.json`.
+
 ## [1.4.0]
 ### ✨ Adicionado
 - **Pastas Temáticas (`ozurac-icons/`):**
@@ -84,3 +102,4 @@
 ## [1.0.0]
 ### 🚀 Lançamento
 - Versão inicial
+```[cite: 23]
