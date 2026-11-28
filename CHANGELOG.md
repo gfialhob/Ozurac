@@ -1,5 +1,19 @@
 # 📋 Changelog
 
+## [1.5.1]
+### 🎨 Alterado
+- **Ícones (`ozurac-icons/`):**
+  - Ícones redesenhados: `folder-api`, `folder-api-open`, `folder-assets`, `folder-assets-open` e `image`.
+
+### 🎨 Melhorias e Correções
+- **Hierarquia de Superfícies e Bordas (`Ozurac.json` e `Ozurac-Soft.json`):**
+  - Ajustada a profundidade visual entre os painéis: Barra de Título e Status em `#050505`, Explorador e Terminal em `#0a0a0a`, Activity Bar e menus em `#0c0c0c` e Editor em `#101010`.
+  - Suavizadas as bordas divisórias da interface (`#0b0b0b` a `#181818`), corrigida a sintaxe de `titleBar.border` e removida a linha vertical da *Overview Ruler*.
+  - Calibrado o destaque da linha ativa (`#161616`) e a seleção inativa do Explorador (`#141414`) para o novo fundo do editor.
+  - Estilizados o *Command Center*, o *Find Widget* e os menus da barra superior na paleta escura do tema.
+  - Ajustados os ícones ativos da Activity Bar (`#006b40` com borda `#00995d`), os links da UI e do editor (`#006B40` / `#00995D` / `#00D883`) e o cursor do terminal (`#00D481`).
+  - Atualizadas as guias de indentação (`editorIndentGuide.background1` / `activeBackground1`), destaques de colchetes, resultados de busca e cores translúcidas do *Diff Editor*.
+  
 ## [1.5.0]
 ### ✨ Adicionado
 - **Variante de Tema (`Ozurac Soft`):**

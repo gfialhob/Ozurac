@@ -14,9 +14,9 @@
 <p align="center"><em>Tema escuro com detalhes em verde</em></p>
 
 <div align="center">
-  <img src="./.github/preview-icons.png" alt="Ozurac Icons Preview" width="800">
-  <br><br>
-  <img src="./.github/preview-editor.png" alt="Ozurac Color Theme Preview" width="800">
+  <img src="./.github/preview-ozurac.png" alt="Ozurac Preview" width="800">
+  <br>
+  <img src="./.github/preview-ozuracsoft.png" alt="Ozurac-Soft Preview" width="800">
 </div>
 
 ---
